@@ -1,5 +1,7 @@
 <script setup>
   import courses from "../stores/subject.json";
+  import { RouterLink, RouterView } from 'vue-router'
+
 </script>
 
 <template>
@@ -18,5 +20,7 @@
         </td>
       </tr>
     </table>
+    <router-link to="/adddrop">เพิ่มถอนรายวิชา</router-link>
+    <RouterView />
 </template>
 
