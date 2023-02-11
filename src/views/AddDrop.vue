@@ -89,3 +89,10 @@ function enrollCourse() {
   </div>
 </template>
 
+<style scoped>
+.border {
+  margin: 20px auto;
+  padding: 0.5em;
+  border: 3px solid gray;
+}
+</style>
